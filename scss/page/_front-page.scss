@@ -2,6 +2,23 @@
 //*  メインビジュアル
 //*------------------*
 
+.mv {
+  width: 100%;
+  height: 360px;
+  background-image: url(../images/sp_bg_hero_01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 60px;
+
+  &__copy {
+    font-family: $font-type3;
+    color: $color-white;
+    @include rem(24);
+    padding: 92px 27px 0;
+    letter-spacing: 0.2em;
+  }
+}
 
 //*------------------*
 //*  
